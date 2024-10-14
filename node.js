@@ -1,7 +1,7 @@
-export function Node()
+export function Node( value = null)
 {
-    const value = null;
+    
     const nextNode = null;
 
     return {value,nextNode};
-}
+};
